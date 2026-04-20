@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Manage Users</a></li>
+                <li><a href="#">Manage Balance</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="manage-users">
+            <h2>Manage Users</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="manage-balance">
+            <h2>Manage Balance</h2>
+            <form>
+                <label for="balance">Balance:</label>
+                <input type="number" id="balance" name="balance" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Admin Panel</p>
+    </footer>
+</body>
+</html>
